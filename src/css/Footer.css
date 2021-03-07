@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,800&display=swap');
+.footer{
+    position: relative;
+    margin-top: 300px;
+    width: 100%;
+    font-family: Poppins;
+    /* background: linear-gradient(175.64deg, #3E4246 0%, #1D1E21 100%); */
+
+}
+.imgcontainer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #333333;
+    overflow: hidden;
+    height: 300px;
+}
+.image-wrapper {
+    /* background: green; */
+    /* width: 50%; */
+    min-width: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    background: cover;
+    left: 0;
+}
+.wrapped_image{
+    position: relative ; 
+    height: 100%;
+    bottom: 0px;
+}
+
+.txtcontainer{
+    color: white;
+    padding: 30px;
+    display: grid;
+    /* place-content: center; */
+    /* justify-content: space-between;   */
+    /* float: right;
+    color:red; */
+    /* width: 50%; */
+}
+.text{
+    display: grid;
+    justify-content: space-between;
+}
+.cnttxt{
+    font-size: 17px;
+    /* margin-top: 10%; */
+}
+.boxinput{
+    position: relative;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.text-input{
+    margin: 0px;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 10px ;
+}
+.inputbutton{
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin: 0px 6px 0px 0px;
+    background: #F3A43E;
+}
+.boxtxt{
+    align-items: center;
+    color:#333333; 
+    /* line-height: 350%; */
+}
+
+/* For Last div which contain three line image */
+.endcont{
+    /* margin-left: 10%; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.social-logos{
+    margin: 20px 0px;
+    position: relative;
+    display: flex;
+}
+.social-logos i{
+    margin: 5px 10px;
+    color: #20123A;
+    background: #C4C4C4;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 27px;
+    text-align: center;
+    place-content: center;
+}
+.social-logo{
+    /* background: red; */
+    /* width: 100px;
+    height: 100px; */
+}
+.footer-logo{
+    /* position: absolute; */
+}
+.term-text{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    left: 10%;
+    top: 120px;
+    font-weight: 700;
+}
+.logoconatiner{
+    /* display: flex; */
+}
+
+.end{
+    position: relative;
+    width: 100%;
+    top: -10px;
+    /* background: chocolate; */
+    /* overflow: auto; */
+    /* box-sizing: content-box; */
+    /* padding-bottom: 30px; */
+    /* top: -150px; */
+}
+/* .l1{
+    position: absolute;
+    margin-top:-10px;
+    width: 100%;
+}
+.l2{
+    position: inherit;
+    width: 100%;
+    left: 0;
+}
+.l3{
+    margin-top: -350px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background: blue;
+} */
+.linepng{
+    overflow: auto;
+    width: 100%;
+    height: 190px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .image-wrapper{
+        min-height: 200px;
+        width: 100%;
+        
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .imgcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .image-wrapper{
+        display: grid;
+        place-content: center;
+        width:100%;
+        padding: 0px;
+        margin: 0px;
+        top: 0px;
+        height: 390px;
+    }
+    .wrapped_image{
+        width: 100%;
+        display: none;
+    }
+    .wrapped_image-sexy{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1350px) {
+    .imgcontainer {
+        width: 90%;
+    }
+    .boxinput {
+        width: 100%;
+    }
+    .term-text{
+        left: 5%;
+    }
+    .endcont{
+        width: 90%;
+    }
+}

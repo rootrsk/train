@@ -1,0 +1,25 @@
+.train_nav{
+    background: burlywood;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+.train-template-card {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 98%;
+    height: 200px;
+    background: rgb(44, 226, 202);
+    padding: 10px 0px;
+    margin: 10px 1%;
+}
+.train-template-card_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin: 10px;
+} 
